@@ -1648,3 +1648,61 @@ body:hover .cursor-glow {
         min-height: 250px;
     }
 }
+
+/* Ajuste final do card + presença na home */
+.hero-business-preview {
+    margin-bottom: 54px;
+}
+
+.proof-one {
+    left: 44px !important;
+    bottom: -34px !important;
+    z-index: 5;
+}
+
+.proof-two {
+    right: -22px !important;
+    top: 190px !important;
+}
+
+/* Preços premium */
+.premium-pricing-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.price-card {
+    position: relative;
+}
+
+.price-card.featured {
+    transform: none;
+}
+
+.best-choice {
+    border-color: rgba(34, 197, 94, 0.55);
+    box-shadow: 0 25px 90px rgba(34, 197, 94, 0.14);
+}
+
+.price-badge {
+    display: inline-flex;
+    margin-bottom: 18px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    color: #86efac;
+    font-size: 0.82rem;
+    font-weight: 950;
+    background: rgba(34, 197, 94, 0.12);
+    border: 1px solid rgba(34, 197, 94, 0.26);
+}
+
+@media (max-width: 1180px) {
+    .premium-pricing-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 680px) {
+    .premium-pricing-grid {
+        grid-template-columns: 1fr;
+    }
+}
