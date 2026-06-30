@@ -1,0 +1,1 @@
+console.log("Landing page Philipe Dev carregada com sucesso.");
