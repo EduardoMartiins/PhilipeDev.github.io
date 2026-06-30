@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabor Caseiro | Cardápio Digital</title>
+    <link rel="stylesheet" href="../demo.css" />
+</head>
+
+<body class="food food-menu-page">
+    <header class="site-header">
+        <nav class="nav">
+            <a href="#" class="logo"><span>Sabor</span>Caseiro</a>
+
+            <div class="nav-links">
+                <a href="#cardapio">Cardápio</a>
+                <a href="#combos">Combos</a>
+                <a href="#pedido">Meu pedido</a>
+                <a href="#contato" class="nav-cta">Pedir agora</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="food-menu-hero">
+            <div class="food-hero-content">
+                <span class="eyebrow">Cardápio digital demonstrativo</span>
+
+                <h1>Escolha sua marmita, monte seu pedido e envie direto pelo WhatsApp.</h1>
+
+                <p>
+                    Um modelo de cardápio online para marmitarias, restaurantes e deliverys
+                    que querem vender de forma mais bonita, organizada e prática.
+                </p>
+
+                <div class="actions">
+                    <a href="#cardapio" class="btn primary">Ver cardápio</a>
+                    <a href="#pedido" class="btn secondary">Meu pedido</a>
+                </div>
+            </div>
+
+            <div class="menu-highlight">
+                <span>Mais pedido hoje</span>
+                <h2>Executivo de frango</h2>
+                <p>Arroz, feijão, frango grelhado, salada e batata.</p>
+
+                <div class="highlight-footer">
+                    <strong>R$ 18,00</strong>
+                    <button type="button" data-name="Executivo de frango" data-price="18">
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section menu-layout" id="cardapio">
+            <div class="menu-main">
+                <div class="section-title menu-title-left">
+                    <span>Cardápio</span>
+                    <h2>Monte seu pedido do jeito que preferir.</h2>
+                </div>
+
+                <div class="category-tabs">
+                    <a href="#executivos">Executivos</a>
+                    <a href="#combos">Combos</a>
+                    <a href="#bebidas">Bebidas</a>
+                    <a href="#extras">Extras</a>
+                </div>
+
+                <div class="menu-category" id="executivos">
+                    <div class="menu-category-header">
+                        <span>01</span>
+                        <div>
+                            <h3>Marmitas executivas</h3>
+                            <p>Pratos completos para o almoço do dia.</p>
+                        </div>
+                    </div>
+
+                    <article class="menu-dish">
+                        <div>
+                            <h4>Executivo de frango</h4>
+                            <p>Arroz, feijão, frango grelhado, salada fresca e batata.</p>
+                            <span class="dish-tag">Mais vendido</span>
+                        </div>
+
+                        <div class="dish-action">
+                            <strong>R$ 18,00</strong>
+                            <button type="button" data-name="Executivo de frango" data-price="18">Adicionar</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-dish">
+                        <div>
+                            <h4>Executivo de carne acebolada</h4>
+                            <p>Arroz, feijão, carne acebolada, farofa, salada e acompanhamento.</p>
+                            <span class="dish-tag">Clássico</span>
+                        </div>
+
+                        <div class="dish-action">
+                            <strong>R$ 22,00</strong>
+                            <button type="button" data-name="Executivo de carne acebolada"
+                                data-price="22">Adicionar</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-dish">
+                        <div>
+                            <h4>Parmegiana especial</h4>
+                            <p>Frango à parmegiana, arroz branco, batata, salada e molho da casa.</p>
+                            <span class="dish-tag">Especial</span>
+                        </div>
+
+                        <div class="dish-action">
+                            <strong>R$ 28,00</strong>
+                            <button type="button" data-name="Parmegiana especial" data-price="28">Adicionar</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="menu-category" id="combos">
+                    <div class="menu-category-header">
+                        <span>02</span>
+                        <div>
+                            <h3>Combos</h3>
+                            <p>Opções prontas para vender mais no delivery.</p>
+                        </div>
+                    </div>
+
+                    <article class="menu-dish featured-dish">
+                        <div>
+                            <h4>Combo almoço completo</h4>
+                            <p>Marmita executiva + bebida lata + sobremesa do dia.</p>
+                            <span class="dish-tag">Oferta do dia</span>
+                        </div>
+
+                        <div class="dish-action">
+                            <strong>R$ 29,90</strong>
+                            <button type="button" data-name="Combo almoço completo"
+                                data-price="29.90">Adicionar</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-dish">
+                        <div>
+                            <h4>Combo família</h4>
+                            <p>Porção grande para até 3 pessoas com arroz, feijão, carne e acompanhamentos.</p>
+                            <span class="dish-tag">Para dividir</span>
+                        </div>
+
+                        <div class="dish-action">
+                            <strong>R$ 69,00</strong>
+                            <button type="button" data-name="Combo família" data-price="69">Adicionar</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="menu-category" id="bebidas">
+                    <div class="menu-category-header">
+                        <span>03</span>
+                        <div>
+                            <h3>Bebidas</h3>
+                            <p>Adicione uma bebida ao pedido.</p>
+                        </div>
+                    </div>
+
+                    <article class="menu-dish compact">
+                        <div>
+                            <h4>Refrigerante lata</h4>
+                            <p>Coca-Cola, Guaraná ou Fanta.</p>
+                        </div>
+
+                        <div class="dish-action">
+                            <strong>R$ 6,00</strong>
+                            <button type="button" data-name="Refrigerante lata" data-price="6">Adicionar</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-dish compact">
+                        <div>
+                            <h4>Suco natural</h4>
+                            <p>Laranja, acerola ou maracujá.</p>
+                        </div>
+
+                        <div class="dish-action">
+                            <strong>R$ 8,00</strong>
+                            <button type="button" data-name="Suco natural" data-price="8">Adicionar</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="menu-category" id="extras">
+                    <div class="menu-category-header">
+                        <span>04</span>
+                        <div>
+                            <h3>Extras</h3>
+                            <p>Complementos para aumentar o ticket do pedido.</p>
+                        </div>
+                    </div>
+
+                    <article class="menu-dish compact">
+                        <div>
+                            <h4>Porção extra de carne</h4>
+                            <p>Adicional de proteína no prato.</p>
+                        </div>
+
+                        <div class="dish-action">
+                            <strong>R$ 8,00</strong>
+                            <button type="button" data-name="Porção extra de carne" data-price="8">Adicionar</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-dish compact">
+                        <div>
+                            <h4>Sobremesa do dia</h4>
+                            <p>Doce caseiro disponível no dia.</p>
+                        </div>
+
+                        <div class="dish-action">
+                            <strong>R$ 7,00</strong>
+                            <button type="button" data-name="Sobremesa do dia" data-price="7">Adicionar</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <aside class="order-card" id="pedido">
+                <div class="order-card-header">
+                    <span>Seu pedido</span>
+                    <h3>Resumo</h3>
+                </div>
+
+                <div class="order-empty">
+                    Nenhum item adicionado ainda.
+                </div>
+
+                <div class="order-items"></div>
+
+                <div class="order-total">
+                    <span>Total</span>
+                    <strong>R$ 0,00</strong>
+                </div>
+
+                <label class="order-field">
+                    <span>Nome</span>
+                    <input type="text" id="customerName" placeholder="Ex: Eduardo" />
+                </label>
+
+                <label class="order-field">
+                    <span>Endereço ou retirada</span>
+                    <input type="text" id="customerAddress" placeholder="Ex: Quadra 10, Gama/DF" />
+                </label>
+
+                <label class="order-field">
+                    <span>Observação</span>
+                    <textarea id="customerNote" placeholder="Ex: sem cebola, pouco feijão..."></textarea>
+                </label>
+
+                <button type="button" class="finish-order">
+                    Finalizar pedido no WhatsApp
+                </button>
+
+                <button type="button" class="clear-order">
+                    Limpar pedido
+                </button>
+            </aside>
+        </section>
+
+        <section class="section delivery-premium">
+            <div>
+                <span>Delivery organizado</span>
+                <h2>O cliente escolhe, monta o pedido e chama no WhatsApp com tudo pronto.</h2>
+                <p>
+                    Esse tipo de cardápio ajuda a reduzir perguntas repetidas, melhora a apresentação
+                    dos pratos e deixa o atendimento muito mais rápido.
+                </p>
+            </div>
+
+            <div class="delivery-stats">
+                <article>
+                    <strong>1</strong>
+                    <span>Escolhe os itens</span>
+                </article>
+
+                <article>
+                    <strong>2</strong>
+                    <span>Confere o total</span>
+                </article>
+
+                <article>
+                    <strong>3</strong>
+                    <span>Envia no WhatsApp</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta" id="contato">
+            <h2>Quer um cardápio digital assim para sua marmitaria?</h2>
+            <p>
+                Esse modelo pode ser adaptado com seus pratos, valores, combos,
+                taxa de entrega, bairros atendidos e WhatsApp real.
+            </p>
+            <a href="https://wa.me/5561986828608" target="_blank" class="btn primary">
+                Quero um cardápio assim
+            </a>
+        </section>
+    </main>
+
+    <a href="../" class="back-link">← Voltar</a>
+    <a href="https://wa.me/5561986828608" target="_blank" class="floating-whatsapp">💬</a>
+
+    <footer class="footer">
+        Modelo demonstrativo criado por PhilipeDev.
+    </footer>
+
+    <script>
+        const phone = "5561986828608";
+        const cart = [];
+
+        const buttons = document.querySelectorAll("[data-name][data-price]");
+        const orderItems = document.querySelector(".order-items");
+        const orderEmpty = document.querySelector(".order-empty");
+        const orderTotal = document.querySelector(".order-total strong");
+        const finishOrder = document.querySelector(".finish-order");
+        const clearOrder = document.querySelector(".clear-order");
+
+        const formatCurrency = (value) => {
+            return value.toLocaleString("pt-BR", {
+                style: "currency",
+                currency: "BRL"
+            });
+        };
+
+        const renderCart = () => {
+            orderItems.innerHTML = "";
+
+            if (cart.length === 0) {
+                orderEmpty.style.display = "block";
+            } else {
+                orderEmpty.style.display = "none";
+            }
+
+            let total = 0;
+
+            cart.forEach((item, index) => {
+                total += item.price * item.quantity;
+
+                const div = document.createElement("div");
+                div.className = "order-item";
+                div.innerHTML = `
+                    <div>
+                        <strong>${item.quantity}x ${item.name}</strong>
+                        <span>${formatCurrency(item.price * item.quantity)}</span>
+                    </div>
+
+                    <button type="button" data-remove="${index}">remover</button>
+                `;
+
+                orderItems.appendChild(div);
+            });
+
+            orderTotal.textContent = formatCurrency(total);
+
+            document.querySelectorAll("[data-remove]").forEach((button) => {
+                button.addEventListener("click", () => {
+                    const index = Number(button.dataset.remove);
+
+                    cart[index].quantity -= 1;
+
+                    if (cart[index].quantity <= 0) {
+                        cart.splice(index, 1);
+                    }
+
+                    renderCart();
+                });
+            });
+        };
+
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const name = button.dataset.name;
+                const price = Number(button.dataset.price);
+
+                const existingItem = cart.find((item) => item.name === name);
+
+                if (existingItem) {
+                    existingItem.quantity += 1;
+                } else {
+                    cart.push({
+                        name,
+                        price,
+                        quantity: 1
+                    });
+                }
+
+                renderCart();
+            });
+        });
+
+        finishOrder.addEventListener("click", () => {
+            if (cart.length === 0) {
+                alert("Adicione pelo menos um item ao pedido.");
+                return;
+            }
+
+            const name = document.querySelector("#customerName").value.trim();
+            const address = document.querySelector("#customerAddress").value.trim();
+            const note = document.querySelector("#customerNote").value.trim();
+
+            let total = 0;
+
+            const itemsText = cart.map((item) => {
+                total += item.price * item.quantity;
+                return `• ${item.quantity}x ${item.name} - ${formatCurrency(item.price * item.quantity)}`;
+            }).join("%0A");
+
+            const message = `
+Olá! Gostaria de fazer um pedido:%0A%0A
+${itemsText}%0A%0A
+Total: ${formatCurrency(total)}%0A%0A
+Nome: ${name || "Não informado"}%0A
+Endereço/retirada: ${address || "Não informado"}%0A
+Observação: ${note || "Nenhuma"}
+            `.trim();
+
+            window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
+        });
+
+        clearOrder.addEventListener("click", () => {
+            cart.splice(0, cart.length);
+            renderCart();
+        });
+
+        renderCart();
+    </script>
+</body>
+
+</html>
