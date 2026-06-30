@@ -4,18 +4,25 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tech Cell Gama | Modelo demonstrativo</title>
+    <title>Tech Cell Gama | Modelo Premium</title>
     <link rel="stylesheet" href="../demo.css" />
 </head>
 
-<body class="demo-body assistencia">
+<body class="demo-body assistencia" style="
+    --hero-gradient: linear-gradient(135deg, #0ea5e9, #2563eb 50%, #111827);
+    --accent-soft: rgba(56, 189, 248, 0.16);
+    --gallery-gradient: linear-gradient(135deg, #0284c7, #1d4ed8);
+    --cta-gradient: linear-gradient(135deg, rgba(14, 165, 233, 0.30), rgba(37, 99, 235, 0.26));
+">
     <header class="demo-header">
         <nav class="demo-nav">
             <a href="#" class="demo-logo">Tech Cell Gama</a>
+
             <div>
                 <a href="#servicos">Serviços</a>
                 <a href="#diferenciais">Diferenciais</a>
-                <a href="#contato">Orçamento</a>
+                <a href="#depoimentos">Clientes</a>
+                <a href="#contato" class="demo-nav-cta">Orçamento</a>
             </div>
         </nav>
     </header>
@@ -23,71 +30,178 @@
     <main>
         <section class="demo-hero">
             <div>
-                <span class="demo-badge">Assistência técnica local</span>
-                <h1>Conserto de celular, troca de tela e orçamento rápido pelo WhatsApp.</h1>
+                <span class="demo-eyebrow">Assistência técnica local</span>
+
+                <h1>Conserto de celular com orçamento rápido e presença digital de confiança.</h1>
+
                 <p>
-                    Modelo para assistências técnicas mostrarem serviços, localização,
-                    diferenciais e captarem orçamentos de forma profissional.
+                    Modelo para assistência técnica, informática e eletrônicos:
+                    serviços organizados, chamada para orçamento, localização e contato profissional.
                 </p>
+
                 <div class="demo-actions">
                     <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Pedir orçamento</a>
                     <a href="#servicos" class="demo-btn secondary">Ver serviços</a>
                 </div>
+
+                <div class="demo-proof">
+                    <span>Orçamento rápido</span>
+                    <span>Serviços claros</span>
+                    <span>Confiança local</span>
+                </div>
             </div>
 
-            <div class="demo-visual" style="--demo-image: linear-gradient(135deg, #0ea5e9, #2563eb);">
-                <strong>Tecnologia, rapidez e confiança</strong>
-                <span>Modelo demonstrativo para assistência técnica</span>
+            <div class="hero-showcase">
+                <div class="showcase-content">
+                    <div class="showcase-top">
+                        <span class="showcase-badge">Atendimento local</span>
+                        <span class="showcase-time">Seg a sábado</span>
+                    </div>
+
+                    <div class="showcase-main">
+                        <h2>Seu aparelho em boas mãos.</h2>
+                        <p>Consertos, avaliações e suporte técnico com contato direto.</p>
+
+                        <div class="showcase-card-grid">
+                            <div class="mini-card">
+                                <strong>Tela</strong>
+                                <span>Troca e avaliação</span>
+                            </div>
+                            <div class="mini-card">
+                                <strong>Bateria</strong>
+                                <span>Diagnóstico rápido</span>
+                            </div>
+                            <div class="mini-card">
+                                <strong>Sistema</strong>
+                                <span>Backup e formatação</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="demo-section" id="servicos">
             <div class="demo-heading">
                 <span>Serviços técnicos</span>
-                <h2>Ajude o cliente a entender o que você resolve antes de chamar.</h2>
+                <h2>Organize os serviços para o cliente pedir orçamento sem enrolação.</h2>
             </div>
 
-            <div class="demo-list">
-                <div><strong>Troca de tela</strong><span>Sob orçamento</span></div>
-                <div><strong>Troca de bateria</strong><span>Sob orçamento</span></div>
-                <div><strong>Conector de carga</strong><span>Sob orçamento</span></div>
-                <div><strong>Formatação e backup</strong><span>Sob orçamento</span></div>
+            <div class="menu-board">
+                <div class="menu-item">
+                    <div>
+                        <h3>Troca de tela</h3>
+                        <p>Avaliação do modelo, disponibilidade e orçamento pelo WhatsApp.</p>
+                    </div>
+                    <strong>Sob orçamento</strong>
+                </div>
+
+                <div class="menu-item">
+                    <div>
+                        <h3>Troca de bateria</h3>
+                        <p>Diagnóstico, substituição e orientação sobre cuidados.</p>
+                    </div>
+                    <strong>Sob orçamento</strong>
+                </div>
+
+                <div class="menu-item">
+                    <div>
+                        <h3>Conector de carga</h3>
+                        <p>Limpeza, análise e troca quando necessário.</p>
+                    </div>
+                    <strong>Sob orçamento</strong>
+                </div>
+
+                <div class="menu-item">
+                    <div>
+                        <h3>Formatação e backup</h3>
+                        <p>Organização, limpeza de sistema e restauração.</p>
+                    </div>
+                    <strong>Sob orçamento</strong>
+                </div>
             </div>
         </section>
 
         <section class="demo-section" id="diferenciais">
             <div class="demo-heading">
                 <span>Diferenciais</span>
-                <h2>Um site passa mais segurança para quem precisa deixar o aparelho no conserto.</h2>
+                <h2>Assistência técnica precisa passar confiança antes do cliente deixar o aparelho.</h2>
             </div>
 
-            <div class="demo-grid-3">
-                <article class="demo-card">
-                    <h3>Orçamento rápido</h3>
-                    <p>Cliente chama pelo WhatsApp já sabendo quais serviços você realiza.</p>
+            <div class="real-grid">
+                <article class="real-card">
+                    <span class="number">01</span>
+                    <h3>Orçamento mais rápido</h3>
+                    <p>O cliente entende os serviços e chama direto pelo WhatsApp.</p>
                 </article>
-                <article class="demo-card">
-                    <h3>Mais confiança</h3>
-                    <p>Site profissional ajuda a transmitir seriedade e organização.</p>
+
+                <article class="real-card">
+                    <span class="number">02</span>
+                    <h3>Imagem profissional</h3>
+                    <p>Um site bem feito passa organização, cuidado e seriedade.</p>
                 </article>
-                <article class="demo-card">
-                    <h3>Localização clara</h3>
-                    <p>Destaque endereço, horário e região de atendimento.</p>
+
+                <article class="real-card">
+                    <span class="number">03</span>
+                    <h3>Contato e localização</h3>
+                    <p>Facilita para quem procura assistência na região e quer resolver rápido.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <h3>Tecnologia com cara profissional.</h3>
+                    <p>Mostre fotos da bancada, ferramentas, fachada, aparelhos e resultados de serviços.</p>
+                </div>
+
+                <div class="gallery-card">
+                    <h3>Mais confiança para fechar orçamento.</h3>
+                    <p>Um site completo ajuda o cliente a sentir segurança antes de chamar.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-section" id="depoimentos">
+            <div class="demo-heading">
+                <span>Clientes</span>
+                <h2>Avaliações aumentam a confiança no serviço.</h2>
+            </div>
+
+            <div class="testimonials">
+                <article class="testimonial">
+                    <p>“Consegui pedir orçamento rápido e fui muito bem atendido.”</p>
+                    <strong>Cliente demonstrativo</strong>
+                </article>
+
+                <article class="testimonial">
+                    <p>“O site passa confiança e mostra exatamente o que a loja faz.”</p>
+                    <strong>Cliente demonstrativo</strong>
+                </article>
+
+                <article class="testimonial">
+                    <p>“Achei a assistência pelo link e chamei pelo WhatsApp na hora.”</p>
+                    <strong>Cliente demonstrativo</strong>
                 </article>
             </div>
         </section>
 
         <section class="demo-cta" id="contato">
-            <h2>Quer um site parecido para sua assistência?</h2>
-            <p>Esse modelo pode ser adaptado para conserto de celular, informática, eletrônicos e suporte técnico.</p>
+            <h2>Quer um site tecnológico para sua assistência?</h2>
+            <p>
+                Esse modelo pode ser adaptado para conserto de celular,
+                informática, eletrônicos, manutenção e suporte técnico.
+            </p>
             <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Quero um site assim</a>
         </section>
     </main>
 
     <a href="../" class="back-link">← Voltar</a>
+    <a href="https://wa.me/5561986828608" class="floating-whatsapp" target="_blank">💬</a>
 
     <footer class="demo-footer">
-        Modelo demonstrativo criado por Philipe Dev.
+        Modelo demonstrativo criado por PhilipeDev.
     </footer>
 </body>
 

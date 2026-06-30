@@ -4,18 +4,25 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio Bella | Modelo demonstrativo</title>
+    <title>Studio Bella | Modelo Premium</title>
     <link rel="stylesheet" href="../demo.css" />
 </head>
 
-<body class="demo-body salao">
+<body class="demo-body salao" style="
+    --hero-gradient: linear-gradient(135deg, #ec4899, #8b5cf6 50%, #111827);
+    --accent-soft: rgba(236, 72, 153, 0.16);
+    --gallery-gradient: linear-gradient(135deg, #db2777, #7c3aed);
+    --cta-gradient: linear-gradient(135deg, rgba(236, 72, 153, 0.30), rgba(124, 58, 237, 0.26));
+">
     <header class="demo-header">
         <nav class="demo-nav">
             <a href="#" class="demo-logo">Studio Bella</a>
+
             <div>
                 <a href="#servicos">Serviços</a>
-                <a href="#pacotes">Pacotes</a>
-                <a href="#contato">Agendar</a>
+                <a href="#experiencia">Experiência</a>
+                <a href="#depoimentos">Clientes</a>
+                <a href="#contato" class="demo-nav-cta">Agendar</a>
             </div>
         </nav>
     </header>
@@ -23,72 +30,179 @@
     <main>
         <section class="demo-hero">
             <div>
-                <span class="demo-badge">Beleza, estética e cuidado</span>
-                <h1>Seu salão com uma presença digital elegante e pronta para agendar.</h1>
+                <span class="demo-eyebrow">Beleza, estética e cuidado</span>
+
+                <h1>Um salão elegante também precisa de uma presença digital elegante.</h1>
+
                 <p>
-                    Modelo para salões, esmalterias, designers de sobrancelha e profissionais
-                    de beleza divulgarem serviços e receberem agendamentos.
+                    Modelo ideal para salões, esmalterias, designers de sobrancelha,
+                    estética, maquiagem e profissionais de beleza que querem receber mais agendamentos.
                 </p>
+
                 <div class="demo-actions">
                     <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Agendar
                         atendimento</a>
                     <a href="#servicos" class="demo-btn secondary">Ver serviços</a>
                 </div>
+
+                <div class="demo-proof">
+                    <span>Agendamento online</span>
+                    <span>Visual elegante</span>
+                    <span>Ideal para Instagram</span>
+                </div>
             </div>
 
-            <div class="demo-visual" style="--demo-image: linear-gradient(135deg, #db2777, #7c3aed);">
-                <strong>Elegância que chama atenção</strong>
-                <span>Modelo demonstrativo para beleza e estética</span>
+            <div class="hero-showcase">
+                <div class="showcase-content">
+                    <div class="showcase-top">
+                        <span class="showcase-badge">Agenda aberta</span>
+                        <span class="showcase-time">Terça a sábado</span>
+                    </div>
+
+                    <div class="showcase-main">
+                        <h2>Beleza com experiência premium.</h2>
+                        <p>Serviços, pacotes, horários e contato em um link profissional.</p>
+
+                        <div class="showcase-card-grid">
+                            <div class="mini-card">
+                                <strong>Unhas</strong>
+                                <span>Manicure e pedicure</span>
+                            </div>
+                            <div class="mini-card">
+                                <strong>Sobrancelha</strong>
+                                <span>Design e finalização</span>
+                            </div>
+                            <div class="mini-card">
+                                <strong>Make</strong>
+                                <span>Eventos e produções</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="demo-section" id="servicos">
             <div class="demo-heading">
                 <span>Serviços</span>
-                <h2>Mostre seus serviços de forma bonita e fácil de entender.</h2>
+                <h2>Mostre seus serviços com beleza, clareza e profissionalismo.</h2>
             </div>
 
-            <div class="demo-list">
-                <div><strong>Manicure e pedicure</strong><span>A partir de R$ 45</span></div>
-                <div><strong>Design de sobrancelha</strong><span>R$ 35</span></div>
-                <div><strong>Escova modelada</strong><span>A partir de R$ 60</span></div>
-                <div><strong>Pacote noiva/evento</strong><span>Sob consulta</span></div>
+            <div class="menu-board">
+                <div class="menu-item">
+                    <div>
+                        <h3>Manicure e pedicure</h3>
+                        <p>Esmaltação, cutilagem, cuidado e finalização.</p>
+                    </div>
+                    <strong>A partir de R$ 45</strong>
+                </div>
+
+                <div class="menu-item">
+                    <div>
+                        <h3>Design de sobrancelha</h3>
+                        <p>Modelagem, limpeza e harmonização do olhar.</p>
+                    </div>
+                    <strong>R$ 35</strong>
+                </div>
+
+                <div class="menu-item">
+                    <div>
+                        <h3>Escova modelada</h3>
+                        <p>Finalização para rotina, eventos e ocasiões especiais.</p>
+                    </div>
+                    <strong>A partir de R$ 60</strong>
+                </div>
+
+                <div class="menu-item">
+                    <div>
+                        <h3>Pacote evento</h3>
+                        <p>Produção especial para festas, formaturas e ensaios.</p>
+                    </div>
+                    <strong>Sob consulta</strong>
+                </div>
             </div>
         </section>
 
-        <section class="demo-section" id="pacotes">
+        <section class="demo-section" id="experiencia">
             <div class="demo-heading">
-                <span>Por que funciona?</span>
-                <h2>Um site bonito valoriza seu trabalho antes mesmo do primeiro contato.</h2>
+                <span>Presença digital</span>
+                <h2>Antes da cliente agendar, ela precisa se encantar.</h2>
             </div>
 
-            <div class="demo-grid-3">
-                <article class="demo-card">
-                    <h3>Visual elegante</h3>
-                    <p>Combina com negócios de beleza que precisam transmitir cuidado e confiança.</p>
+            <div class="real-grid">
+                <article class="real-card">
+                    <span class="number">01</span>
+                    <h3>Visual que valoriza</h3>
+                    <p>Design elegante para transmitir cuidado, beleza e confiança no primeiro clique.</p>
                 </article>
-                <article class="demo-card">
+
+                <article class="real-card">
+                    <span class="number">02</span>
+                    <h3>Serviços organizados</h3>
+                    <p>Mostre opções, pacotes, horários, fotos e diferenciais do atendimento.</p>
+                </article>
+
+                <article class="real-card">
+                    <span class="number">03</span>
                     <h3>Agendamento fácil</h3>
-                    <p>Cliente vê os serviços e chama direto no WhatsApp.</p>
+                    <p>Botões para WhatsApp facilitam o contato e diminuem dúvidas antes de marcar.</p>
                 </article>
-                <article class="demo-card">
-                    <h3>Ideal para Instagram</h3>
-                    <p>Use o link do site na bio e envie para clientes interessadas.</p>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <h3>Um site bonito vira vitrine.</h3>
+                    <p>Use fotos reais de unhas, cabelo, maquiagem, espaço e resultados para encantar clientes.</p>
+                </div>
+
+                <div class="gallery-card">
+                    <h3>Mais profissional que só depender da bio.</h3>
+                    <p>Um link completo com serviços, valores, localização, horários e contato.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-section" id="depoimentos">
+            <div class="demo-heading">
+                <span>Clientes</span>
+                <h2>Depoimentos ajudam a passar segurança.</h2>
+            </div>
+
+            <div class="testimonials">
+                <article class="testimonial">
+                    <p>“Amei o atendimento e consegui agendar rapidinho pelo WhatsApp.”</p>
+                    <strong>Cliente demonstrativa</strong>
+                </article>
+
+                <article class="testimonial">
+                    <p>“O site é lindo e me ajudou a escolher o serviço antes de chamar.”</p>
+                    <strong>Cliente demonstrativa</strong>
+                </article>
+
+                <article class="testimonial">
+                    <p>“Passa muito mais confiança ver tudo organizado assim.”</p>
+                    <strong>Cliente demonstrativa</strong>
                 </article>
             </div>
         </section>
 
         <section class="demo-cta" id="contato">
-            <h2>Quer um site parecido para seu salão?</h2>
-            <p>Esse modelo pode receber suas fotos, serviços, cores e pacotes reais.</p>
+            <h2>Quer um site elegante para seu salão?</h2>
+            <p>
+                Esse modelo pode ser adaptado com suas fotos, serviços, pacotes,
+                cores, Instagram, endereço e botão de agendamento.
+            </p>
             <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Quero um site assim</a>
         </section>
     </main>
 
     <a href="../" class="back-link">← Voltar</a>
+    <a href="https://wa.me/5561986828608" class="floating-whatsapp" target="_blank">💬</a>
 
     <footer class="demo-footer">
-        Modelo demonstrativo criado por Philipe Dev.
+        Modelo demonstrativo criado por PhilipeDev.
     </footer>
 </body>
 

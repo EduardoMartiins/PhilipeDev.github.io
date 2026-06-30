@@ -4,18 +4,25 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marmitaria Sabor Caseiro | Modelo demonstrativo</title>
+    <title>Marmitaria Sabor Caseiro | Modelo Premium</title>
     <link rel="stylesheet" href="../demo.css" />
 </head>
 
-<body class="demo-body marmitaria">
+<body class="demo-body marmitaria" style="
+    --hero-gradient: linear-gradient(135deg, #ef4444, #f97316 48%, #111827);
+    --accent-soft: rgba(239, 68, 68, 0.16);
+    --gallery-gradient: linear-gradient(135deg, #dc2626, #f97316);
+    --cta-gradient: linear-gradient(135deg, rgba(239, 68, 68, 0.32), rgba(249, 115, 22, 0.20));
+">
     <header class="demo-header">
         <nav class="demo-nav">
             <a href="#" class="demo-logo">Sabor Caseiro</a>
+
             <div>
                 <a href="#cardapio">Cardápio</a>
                 <a href="#combos">Combos</a>
-                <a href="#contato">Pedir agora</a>
+                <a href="#depoimentos">Clientes</a>
+                <a href="#contato" class="demo-nav-cta">Pedir agora</a>
             </div>
         </nav>
     </header>
@@ -23,72 +30,179 @@
     <main>
         <section class="demo-hero">
             <div>
-                <span class="demo-badge">Marmitaria e delivery</span>
-                <h1>Comida caseira, entrega rápida e pedido direto pelo WhatsApp.</h1>
+                <span class="demo-eyebrow">Marmitaria e delivery local</span>
+
+                <h1>Comida caseira no capricho, cardápio bonito e pedido rápido pelo WhatsApp.</h1>
+
                 <p>
-                    Um modelo para marmitarias e restaurantes divulgarem cardápio,
-                    combos, área de entrega e receberem pedidos com poucos cliques.
+                    Um site feito para marmitarias e restaurantes venderem melhor:
+                    cardápio organizado, combos, horário, área de entrega e botão direto para pedidos.
                 </p>
+
                 <div class="demo-actions">
                     <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Pedir pelo
                         WhatsApp</a>
                     <a href="#cardapio" class="demo-btn secondary">Ver cardápio</a>
                 </div>
+
+                <div class="demo-proof">
+                    <span>Cardápio online</span>
+                    <span>Pedido pelo WhatsApp</span>
+                    <span>Combos em destaque</span>
+                </div>
             </div>
 
-            <div class="demo-visual" style="--demo-image: linear-gradient(135deg, #dc2626, #f97316);">
-                <strong>Cardápio bonito e fácil de pedir</strong>
-                <span>Modelo demonstrativo para delivery local</span>
+            <div class="hero-showcase">
+                <div class="showcase-content">
+                    <div class="showcase-top">
+                        <span class="showcase-badge">Entrega hoje</span>
+                        <span class="showcase-time">11h às 14h30</span>
+                    </div>
+
+                    <div class="showcase-main">
+                        <h2>Seu almoço em poucos cliques.</h2>
+                        <p>Pratos do dia, combos e pedido direto no WhatsApp.</p>
+
+                        <div class="showcase-card-grid">
+                            <div class="mini-card">
+                                <strong>Executivo</strong>
+                                <span>Frango, carne ou calabresa</span>
+                            </div>
+                            <div class="mini-card">
+                                <strong>Combo</strong>
+                                <span>Marmita + bebida</span>
+                            </div>
+                            <div class="mini-card">
+                                <strong>Família</strong>
+                                <span>Porções para dividir</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="demo-section" id="cardapio">
             <div class="demo-heading">
                 <span>Cardápio do dia</span>
-                <h2>Organize os pratos e facilite a escolha do cliente.</h2>
+                <h2>Mostre os pratos de forma clara e facilite o pedido.</h2>
             </div>
 
-            <div class="demo-list">
-                <div><strong>Executivo de frango</strong><span>R$ 18</span></div>
-                <div><strong>Executivo de carne</strong><span>R$ 22</span></div>
-                <div><strong>Parmegiana especial</strong><span>R$ 28</span></div>
-                <div><strong>Combo família</strong><span>R$ 69</span></div>
+            <div class="menu-board">
+                <div class="menu-item">
+                    <div>
+                        <h3>Executivo de frango</h3>
+                        <p>Arroz, feijão, frango grelhado, salada e acompanhamento.</p>
+                    </div>
+                    <strong>R$ 18</strong>
+                </div>
+
+                <div class="menu-item">
+                    <div>
+                        <h3>Executivo de carne</h3>
+                        <p>Carne acebolada, arroz, feijão, farofa e salada.</p>
+                    </div>
+                    <strong>R$ 22</strong>
+                </div>
+
+                <div class="menu-item">
+                    <div>
+                        <h3>Parmegiana especial</h3>
+                        <p>Frango à parmegiana, arroz, batata e salada.</p>
+                    </div>
+                    <strong>R$ 28</strong>
+                </div>
+
+                <div class="menu-item">
+                    <div>
+                        <h3>Combo família</h3>
+                        <p>Porção grande para 3 pessoas com acompanhamentos.</p>
+                    </div>
+                    <strong>R$ 69</strong>
+                </div>
             </div>
         </section>
 
         <section class="demo-section" id="combos">
             <div class="demo-heading">
-                <span>Vantagens</span>
-                <h2>Um site simples pode vender mais do que só postar no status.</h2>
+                <span>Venda melhor</span>
+                <h2>O cliente não precisa perguntar tudo. O site já ajuda a vender.</h2>
             </div>
 
-            <div class="demo-grid-3">
-                <article class="demo-card">
-                    <h3>Cardápio fixo</h3>
-                    <p>Cliente acessa sempre que quiser, sem depender de mandar foto todo dia.</p>
+            <div class="real-grid">
+                <article class="real-card">
+                    <span class="number">01</span>
+                    <h3>Cardápio sempre disponível</h3>
+                    <p>Ideal para colocar na bio do Instagram e enviar para clientes no WhatsApp.</p>
                 </article>
-                <article class="demo-card">
-                    <h3>Pedido rápido</h3>
-                    <p>Botão já abre o WhatsApp para finalizar o pedido.</p>
+
+                <article class="real-card">
+                    <span class="number">02</span>
+                    <h3>Combos destacados</h3>
+                    <p>Mostre promoções, pratos do dia, taxa de entrega e horários.</p>
                 </article>
-                <article class="demo-card">
-                    <h3>Mais confiança</h3>
-                    <p>Visual profissional para destacar seu delivery na região.</p>
+
+                <article class="real-card">
+                    <span class="number">03</span>
+                    <h3>Pedido mais rápido</h3>
+                    <p>O cliente já escolhe e chama no WhatsApp com muito menos dúvida.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <h3>Comida bonita também vende.</h3>
+                    <p>Fotos reais dos pratos deixam o site muito mais chamativo e aumentam a vontade de pedir.</p>
+                </div>
+
+                <div class="gallery-card">
+                    <h3>Perfeito para delivery local.</h3>
+                    <p>Mostre área de entrega, formas de pagamento e horário de funcionamento.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-section" id="depoimentos">
+            <div class="demo-heading">
+                <span>Clientes</span>
+                <h2>Prova social ajuda a transformar visita em pedido.</h2>
+            </div>
+
+            <div class="testimonials">
+                <article class="testimonial">
+                    <p>“Vi o cardápio pelo site e ficou muito fácil pedir.”</p>
+                    <strong>Cliente demonstrativo</strong>
+                </article>
+
+                <article class="testimonial">
+                    <p>“Gostei dos combos e chamei direto no WhatsApp.”</p>
+                    <strong>Cliente demonstrativo</strong>
+                </article>
+
+                <article class="testimonial">
+                    <p>“Site bonito, rápido e com tudo que eu precisava saber.”</p>
+                    <strong>Cliente demonstrativo</strong>
                 </article>
             </div>
         </section>
 
         <section class="demo-cta" id="contato">
-            <h2>Quer um site parecido para sua marmitaria?</h2>
-            <p>Esse modelo pode ser adaptado para cardápio, combos, entregas e promoções semanais.</p>
+            <h2>Quer um site assim para sua marmitaria?</h2>
+            <p>
+                Esse modelo pode ser adaptado com seu cardápio, fotos reais,
+                combos, taxa de entrega, endereço e WhatsApp.
+            </p>
             <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Quero um site assim</a>
         </section>
     </main>
 
     <a href="../" class="back-link">← Voltar</a>
+    <a href="https://wa.me/5561986828608" class="floating-whatsapp" target="_blank">💬</a>
 
     <footer class="demo-footer">
-        Modelo demonstrativo criado por Philipe Dev.
+        Modelo demonstrativo criado por PhilipeDev.
     </footer>
 </body>
 
