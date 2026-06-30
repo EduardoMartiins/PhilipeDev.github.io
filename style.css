@@ -484,3 +484,27 @@ a {
         grid-template-columns: 1fr;
     }
 }
+
+.cursor-glow {
+    position: fixed;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.28), transparent 65%);
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    mix-blend-mode: screen;
+}
+
+body:hover .cursor-glow {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .cursor-glow {
+        display: none;
+    }
+}
