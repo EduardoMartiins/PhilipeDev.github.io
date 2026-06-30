@@ -4,204 +4,143 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marmitaria Sabor Caseiro | Modelo Premium</title>
+    <title>Sabor Caseiro | Marmitaria e Delivery</title>
     <link rel="stylesheet" href="../demo.css" />
 </head>
 
-<body class="demo-body marmitaria" style="
-    --hero-gradient: linear-gradient(135deg, #ef4444, #f97316 48%, #111827);
-    --accent-soft: rgba(239, 68, 68, 0.16);
-    --gallery-gradient: linear-gradient(135deg, #dc2626, #f97316);
-    --cta-gradient: linear-gradient(135deg, rgba(239, 68, 68, 0.32), rgba(249, 115, 22, 0.20));
-">
-    <header class="demo-header">
-        <nav class="demo-nav">
-            <a href="#" class="demo-logo">Sabor Caseiro</a>
+<body class="food">
+    <header class="site-header">
+        <nav class="nav">
+            <a href="#" class="logo"><span>Sabor</span>Caseiro</a>
 
-            <div>
+            <div class="nav-links">
                 <a href="#cardapio">Cardápio</a>
-                <a href="#combos">Combos</a>
+                <a href="#entrega">Entrega</a>
                 <a href="#depoimentos">Clientes</a>
-                <a href="#contato" class="demo-nav-cta">Pedir agora</a>
+                <a href="#contato" class="nav-cta">Pedir agora</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="demo-hero">
+        <section class="hero">
             <div>
-                <span class="demo-eyebrow">Marmitaria e delivery local</span>
+                <span class="eyebrow">Marmitaria e delivery no Gama/DF</span>
 
-                <h1>Comida caseira no capricho, cardápio bonito e pedido rápido pelo WhatsApp.</h1>
+                <h1>Comida caseira de verdade, cardápio bonito e pedido rápido pelo WhatsApp.</h1>
 
                 <p>
-                    Um site feito para marmitarias e restaurantes venderem melhor:
-                    cardápio organizado, combos, horário, área de entrega e botão direto para pedidos.
+                    Marmitas fresquinhas, combos do dia, entrega na região e um site feito para o cliente
+                    escolher o prato sem precisar ficar perguntando tudo no WhatsApp.
                 </p>
 
-                <div class="demo-actions">
-                    <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Pedir pelo
-                        WhatsApp</a>
-                    <a href="#cardapio" class="demo-btn secondary">Ver cardápio</a>
-                </div>
-
-                <div class="demo-proof">
-                    <span>Cardápio online</span>
-                    <span>Pedido pelo WhatsApp</span>
-                    <span>Combos em destaque</span>
+                <div class="actions">
+                    <a href="https://wa.me/5561986828608" target="_blank" class="btn primary">Pedir pelo WhatsApp</a>
+                    <a href="#cardapio" class="btn secondary">Ver cardápio</a>
                 </div>
             </div>
 
-            <div class="hero-showcase">
-                <div class="showcase-content">
-                    <div class="showcase-top">
-                        <span class="showcase-badge">Entrega hoje</span>
-                        <span class="showcase-time">11h às 14h30</span>
-                    </div>
-
-                    <div class="showcase-main">
-                        <h2>Seu almoço em poucos cliques.</h2>
-                        <p>Pratos do dia, combos e pedido direto no WhatsApp.</p>
-
-                        <div class="showcase-card-grid">
-                            <div class="mini-card">
-                                <strong>Executivo</strong>
-                                <span>Frango, carne ou calabresa</span>
-                            </div>
-                            <div class="mini-card">
-                                <strong>Combo</strong>
-                                <span>Marmita + bebida</span>
-                            </div>
-                            <div class="mini-card">
-                                <strong>Família</strong>
-                                <span>Porções para dividir</span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="food-visual">
+                <div class="food-badge">
+                    <strong>Prato do dia</strong>
+                    <p>Arroz, feijão, frango grelhado, salada e acompanhamento.</p>
                 </div>
             </div>
         </section>
 
-        <section class="demo-section" id="cardapio">
-            <div class="demo-heading">
-                <span>Cardápio do dia</span>
-                <h2>Mostre os pratos de forma clara e facilite o pedido.</h2>
+        <section class="section" id="cardapio">
+            <div class="section-title">
+                <span>Cardápio</span>
+                <h2>Pratos organizados para o cliente escolher rápido.</h2>
             </div>
 
-            <div class="menu-board">
-                <div class="menu-item">
-                    <div>
+            <div class="menu-grid">
+                <article class="food-card">
+                    <div class="img m1"></div>
+                    <div class="info">
                         <h3>Executivo de frango</h3>
-                        <p>Arroz, feijão, frango grelhado, salada e acompanhamento.</p>
+                        <p>Arroz, feijão, frango grelhado, salada e batata.</p>
+                        <strong>R$ 18</strong>
                     </div>
-                    <strong>R$ 18</strong>
-                </div>
+                </article>
 
-                <div class="menu-item">
-                    <div>
-                        <h3>Executivo de carne</h3>
-                        <p>Carne acebolada, arroz, feijão, farofa e salada.</p>
+                <article class="food-card">
+                    <div class="img m2"></div>
+                    <div class="info">
+                        <h3>Carne acebolada</h3>
+                        <p>Carne, arroz, feijão, farofa, salada e acompanhamento.</p>
+                        <strong>R$ 22</strong>
                     </div>
-                    <strong>R$ 22</strong>
-                </div>
+                </article>
 
-                <div class="menu-item">
-                    <div>
-                        <h3>Parmegiana especial</h3>
-                        <p>Frango à parmegiana, arroz, batata e salada.</p>
-                    </div>
-                    <strong>R$ 28</strong>
-                </div>
-
-                <div class="menu-item">
-                    <div>
+                <article class="food-card">
+                    <div class="img m3"></div>
+                    <div class="info">
                         <h3>Combo família</h3>
-                        <p>Porção grande para 3 pessoas com acompanhamentos.</p>
+                        <p>Porção grande para dividir com acompanhamentos e bebida.</p>
+                        <strong>R$ 69</strong>
                     </div>
-                    <strong>R$ 69</strong>
-                </div>
-            </div>
-        </section>
-
-        <section class="demo-section" id="combos">
-            <div class="demo-heading">
-                <span>Venda melhor</span>
-                <h2>O cliente não precisa perguntar tudo. O site já ajuda a vender.</h2>
-            </div>
-
-            <div class="real-grid">
-                <article class="real-card">
-                    <span class="number">01</span>
-                    <h3>Cardápio sempre disponível</h3>
-                    <p>Ideal para colocar na bio do Instagram e enviar para clientes no WhatsApp.</p>
-                </article>
-
-                <article class="real-card">
-                    <span class="number">02</span>
-                    <h3>Combos destacados</h3>
-                    <p>Mostre promoções, pratos do dia, taxa de entrega e horários.</p>
-                </article>
-
-                <article class="real-card">
-                    <span class="number">03</span>
-                    <h3>Pedido mais rápido</h3>
-                    <p>O cliente já escolhe e chama no WhatsApp com muito menos dúvida.</p>
                 </article>
             </div>
         </section>
 
-        <section class="demo-section">
-            <div class="gallery-grid">
-                <div class="gallery-card">
-                    <h3>Comida bonita também vende.</h3>
-                    <p>Fotos reais dos pratos deixam o site muito mais chamativo e aumentam a vontade de pedir.</p>
+        <section class="section" id="entrega">
+            <div class="delivery-strip">
+                <div class="delivery-box">
+                    <h2>Entrega rápida na região</h2>
+                    <p>
+                        Destaque bairros atendidos, taxa de entrega, horários e formas de pagamento.
+                        O cliente entende tudo antes de fazer o pedido.
+                    </p>
                 </div>
 
-                <div class="gallery-card">
-                    <h3>Perfeito para delivery local.</h3>
-                    <p>Mostre área de entrega, formas de pagamento e horário de funcionamento.</p>
+                <div class="delivery-box orange">
+                    <h2>Pedido direto no WhatsApp</h2>
+                    <p>
+                        O botão leva o cliente direto para conversa, com menos dúvida e mais chance de fechar o pedido.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section class="demo-section" id="depoimentos">
-            <div class="demo-heading">
+        <section class="section" id="depoimentos">
+            <div class="section-title">
                 <span>Clientes</span>
-                <h2>Prova social ajuda a transformar visita em pedido.</h2>
+                <h2>Depoimentos deixam o delivery mais confiável.</h2>
             </div>
 
             <div class="testimonials">
                 <article class="testimonial">
-                    <p>“Vi o cardápio pelo site e ficou muito fácil pedir.”</p>
+                    <p>“Vi o cardápio pelo site e pedi rapidinho. Muito prático.”</p>
                     <strong>Cliente demonstrativo</strong>
                 </article>
 
                 <article class="testimonial">
-                    <p>“Gostei dos combos e chamei direto no WhatsApp.”</p>
+                    <p>“A apresentação dos pratos dá vontade de pedir na hora.”</p>
                     <strong>Cliente demonstrativo</strong>
                 </article>
 
                 <article class="testimonial">
-                    <p>“Site bonito, rápido e com tudo que eu precisava saber.”</p>
+                    <p>“Gostei porque já aparece preço, horário e WhatsApp.”</p>
                     <strong>Cliente demonstrativo</strong>
                 </article>
             </div>
         </section>
 
-        <section class="demo-cta" id="contato">
+        <section class="cta" id="contato">
             <h2>Quer um site assim para sua marmitaria?</h2>
             <p>
-                Esse modelo pode ser adaptado com seu cardápio, fotos reais,
-                combos, taxa de entrega, endereço e WhatsApp.
+                Esse modelo pode ser adaptado com seu cardápio real, fotos dos pratos,
+                combos, endereço, taxa de entrega e WhatsApp.
             </p>
-            <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Quero um site assim</a>
+            <a href="https://wa.me/5561986828608" target="_blank" class="btn primary">Quero um site assim</a>
         </section>
     </main>
 
     <a href="../" class="back-link">← Voltar</a>
-    <a href="https://wa.me/5561986828608" class="floating-whatsapp" target="_blank">💬</a>
+    <a href="https://wa.me/5561986828608" target="_blank" class="floating-whatsapp">💬</a>
 
-    <footer class="demo-footer">
+    <footer class="footer">
         Modelo demonstrativo criado por PhilipeDev.
     </footer>
 </body>

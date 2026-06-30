@@ -4,203 +4,132 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barbearia Corte Fino | Modelo Premium</title>
+    <title>Corte Fino | Barbearia Premium</title>
     <link rel="stylesheet" href="../demo.css" />
 </head>
 
-<body class="demo-body barbearia" style="
-    --hero-gradient: linear-gradient(135deg, #f59e0b, #7c2d12 48%, #111827);
-    --accent-soft: rgba(245, 158, 11, 0.16);
-    --gallery-gradient: linear-gradient(135deg, #92400e, #111827);
-    --cta-gradient: linear-gradient(135deg, rgba(245, 158, 11, 0.32), rgba(17, 24, 39, 0.85));
-">
-    <header class="demo-header">
-        <nav class="demo-nav">
-            <a href="#" class="demo-logo">Corte Fino</a>
+<body class="barber">
+    <header class="site-header">
+        <nav class="nav">
+            <a href="#" class="logo"><span>Corte</span>Fino</a>
 
-            <div>
+            <div class="nav-links">
                 <a href="#servicos">Serviços</a>
-                <a href="#experiencia">Experiência</a>
+                <a href="#galeria">Galeria</a>
                 <a href="#depoimentos">Clientes</a>
-                <a href="#contato" class="demo-nav-cta">Agendar</a>
+                <a href="#contato" class="nav-cta">Agendar</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="demo-hero">
+        <section class="hero">
             <div>
-                <span class="demo-eyebrow">Barbearia premium no Gama/DF</span>
+                <span class="eyebrow">Barbearia premium</span>
 
                 <h1>Corte alinhado, barba no detalhe e atendimento com hora marcada.</h1>
 
                 <p>
-                    Uma presença digital forte para barbearias que querem mostrar estilo,
-                    organização, serviços, preços e transformar visitas em agendamentos pelo WhatsApp.
+                    Um site com cara forte, premium e profissional para barbearias que querem
+                    transformar visitantes em agendamentos pelo WhatsApp.
                 </p>
 
-                <div class="demo-actions">
-                    <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Agendar horário</a>
-                    <a href="#servicos" class="demo-btn secondary">Ver serviços</a>
-                </div>
-
-                <div class="demo-proof">
-                    <span>Agenda pelo WhatsApp</span>
-                    <span>Visual premium</span>
-                    <span>Serviços claros</span>
+                <div class="actions">
+                    <a href="https://wa.me/5561986828608" target="_blank" class="btn primary">Agendar horário</a>
+                    <a href="#servicos" class="btn secondary">Ver serviços</a>
                 </div>
             </div>
 
-            <div class="hero-showcase">
-                <div class="showcase-content">
-                    <div class="showcase-top">
-                        <span class="showcase-badge">Aberto hoje</span>
-                        <span class="showcase-time">09h às 20h</span>
-                    </div>
-
-                    <div class="showcase-main">
-                        <h2>Seu visual começa aqui.</h2>
-                        <p>Corte, barba, acabamento e experiência de barbearia moderna.</p>
-
-                        <div class="showcase-card-grid">
-                            <div class="mini-card">
-                                <strong>Corte</strong>
-                                <span>Degradê, social e navalhado</span>
-                            </div>
-                            <div class="mini-card">
-                                <strong>Barba</strong>
-                                <span>Toalha quente e acabamento</span>
-                            </div>
-                            <div class="mini-card">
-                                <strong>Combo</strong>
-                                <span>Corte + barba completo</span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="barber-visual">
+                <div class="visual-box">
+                    <h2>Estilo começa no primeiro clique.</h2>
+                    <p>Cortes, barba, combos e localização em uma página profissional.</p>
                 </div>
             </div>
         </section>
 
-        <section class="demo-section" id="servicos">
-            <div class="demo-heading">
-                <span>Serviços e valores</span>
-                <h2>O cliente já vê o que você faz antes de chamar no WhatsApp.</h2>
+        <section class="section" id="servicos">
+            <div class="section-title">
+                <span>Serviços</span>
+                <h2>Serviços claros para o cliente escolher antes de agendar.</h2>
             </div>
 
-            <div class="menu-board">
-                <div class="menu-item">
-                    <div>
-                        <h3>Corte masculino</h3>
-                        <p>Degradê, social, navalhado ou corte na tesoura.</p>
-                    </div>
+            <div class="barber-services">
+                <article class="service">
+                    <h3>Corte masculino</h3>
+                    <p>Degradê, social, navalhado ou corte na tesoura.</p>
                     <strong>R$ 35</strong>
-                </div>
+                </article>
 
-                <div class="menu-item">
-                    <div>
-                        <h3>Barba completa</h3>
-                        <p>Modelagem, acabamento, toalha quente e finalização.</p>
-                    </div>
+                <article class="service">
+                    <h3>Barba completa</h3>
+                    <p>Modelagem, acabamento e finalização.</p>
                     <strong>R$ 30</strong>
-                </div>
+                </article>
 
-                <div class="menu-item">
-                    <div>
-                        <h3>Combo corte + barba</h3>
-                        <p>Experiência completa para sair pronto.</p>
-                    </div>
+                <article class="service">
+                    <h3>Combo corte + barba</h3>
+                    <p>Experiência completa para sair pronto.</p>
                     <strong>R$ 60</strong>
-                </div>
+                </article>
 
-                <div class="menu-item">
-                    <div>
-                        <h3>Sobrancelha</h3>
-                        <p>Acabamento rápido junto ao corte.</p>
-                    </div>
+                <article class="service">
+                    <h3>Sobrancelha</h3>
+                    <p>Acabamento rápido junto ao corte.</p>
                     <strong>R$ 15</strong>
-                </div>
-            </div>
-        </section>
-
-        <section class="demo-section" id="experiencia">
-            <div class="demo-heading">
-                <span>Experiência</span>
-                <h2>Um site que vende a sensação antes do cliente sentar na cadeira.</h2>
-            </div>
-
-            <div class="real-grid">
-                <article class="real-card">
-                    <span class="number">01</span>
-                    <h3>Agendamento direto</h3>
-                    <p>Botão de WhatsApp em pontos estratégicos para transformar interesse em horário marcado.</p>
-                </article>
-
-                <article class="real-card">
-                    <span class="number">02</span>
-                    <h3>Identidade forte</h3>
-                    <p>Visual escuro, elegante e premium, combinando com barbearias modernas.</p>
-                </article>
-
-                <article class="real-card">
-                    <span class="number">03</span>
-                    <h3>Confiança local</h3>
-                    <p>Mostra horário, serviços, localização, diferenciais e facilita a decisão do cliente.</p>
                 </article>
             </div>
         </section>
 
-        <section class="demo-section">
-            <div class="gallery-grid">
-                <div class="gallery-card">
-                    <h3>Ambiente, estilo e profissionalismo.</h3>
-                    <p>Use fotos reais da cadeira, cortes, fachada e equipe para deixar o site ainda mais forte.</p>
+        <section class="section" id="galeria">
+            <div class="barber-gallery">
+                <div class="gallery-card g1">
+                    <h3>Ambiente moderno</h3>
+                    <p>Fotos reais da cadeira, fachada e cortes deixam o site muito mais forte.</p>
                 </div>
 
-                <div class="gallery-card">
-                    <h3>Perfeito para colocar na bio.</h3>
-                    <p>O cliente vê tudo em um link só: serviços, preço, localização e WhatsApp.</p>
+                <div class="gallery-card g2">
+                    <h3>Agendamento fácil</h3>
+                    <p>O cliente vê o serviço e chama no WhatsApp na hora.</p>
                 </div>
             </div>
         </section>
 
-        <section class="demo-section" id="depoimentos">
-            <div class="demo-heading">
-                <span>Prova social</span>
-                <h2>Depoimentos deixam o negócio mais confiável.</h2>
+        <section class="section" id="depoimentos">
+            <div class="section-title">
+                <span>Clientes</span>
+                <h2>Confiança ajuda o cliente a marcar horário.</h2>
             </div>
 
             <div class="testimonials">
                 <article class="testimonial">
-                    <p>“Atendimento no horário e corte muito bem feito. Já virei cliente.”</p>
+                    <p>“Corte muito bem feito e atendimento no horário.”</p>
                     <strong>Cliente demonstrativo</strong>
                 </article>
 
                 <article class="testimonial">
-                    <p>“Gostei porque vi os serviços pelo site e já chamei direto no WhatsApp.”</p>
+                    <p>“Vi os serviços no site e já chamei no WhatsApp.”</p>
                     <strong>Cliente demonstrativo</strong>
                 </article>
 
                 <article class="testimonial">
-                    <p>“Visual profissional, fácil de achar e agendar.”</p>
+                    <p>“Visual profissional, passa muita confiança.”</p>
                     <strong>Cliente demonstrativo</strong>
                 </article>
             </div>
         </section>
 
-        <section class="demo-cta" id="contato">
-            <h2>Quer um site com esse nível para sua barbearia?</h2>
-            <p>
-                Esse é um modelo demonstrativo. Posso adaptar com nome, fotos, serviços,
-                cores, localização e WhatsApp do seu negócio.
-            </p>
-            <a href="https://wa.me/5561986828608" class="demo-btn primary" target="_blank">Quero um site assim</a>
+        <section class="cta" id="contato">
+            <h2>Quer um site assim para sua barbearia?</h2>
+            <p>Adapte com suas fotos, serviços, preços, localização e botão de agendamento.</p>
+            <a href="https://wa.me/5561986828608" target="_blank" class="btn primary">Quero um site assim</a>
         </section>
     </main>
 
     <a href="../" class="back-link">← Voltar</a>
-    <a href="https://wa.me/5561986828608" class="floating-whatsapp" target="_blank">💬</a>
+    <a href="https://wa.me/5561986828608" target="_blank" class="floating-whatsapp">💬</a>
 
-    <footer class="demo-footer">
+    <footer class="footer">
         Modelo demonstrativo criado por PhilipeDev.
     </footer>
 </body>
