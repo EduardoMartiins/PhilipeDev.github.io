@@ -22,7 +22,7 @@ window.addEventListener("mouseenter", () => {
 });
 
 const revealElements = document.querySelectorAll(
-    ".section, .card, .portfolio-card, .price-card, .step-card, .cta"
+    ".section, .card, .portfolio-card, .price-card, .step-card, .cta, .launch-offer, .briefing-grid article"
 );
 
 revealElements.forEach((element) => {
